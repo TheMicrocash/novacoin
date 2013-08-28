@@ -34,7 +34,7 @@ static const int64 MIN_TX_FEE = CENT;
 static const int64 MIN_RELAY_TX_FEE = CENT;
 static const int64 MAX_MONEY = 2000000000 * COIN;
 static const int64 MAX_MINT_PROOF_OF_WORK = 100 * COIN;
-static const int64 MAX_MINT_PROOF_OF_STAKE = 1 * COIN;
+static const int64 MAX_MINT_PROOF_OF_STAKE = 10 * COIN;
 static const int64 MIN_TXOUT_AMOUNT = MIN_TX_FEE;
 
 static const unsigned int ENTROPY_SWITCH_TIME = 1362791041; // Sat, 09 Mar 2013 01:04:01 GMT
@@ -55,8 +55,8 @@ static const int fHaveUPnP = true;
 static const int fHaveUPnP = false;
 #endif
 
-static const uint256 hashGenesisBlock("0x00000a060336cbb72fe969666d337b87198b1add2abaa59cca226820b32933a4");
-static const uint256 hashGenesisBlockTestNet("0x000c763e402f2436da9ed36c7286f62c3f6e5dbafce9ff289bd43d7459327eb");
+static const uint256 hashGenesisBlock("0x");
+static const uint256 hashGenesisBlockTestNet("0x");
 
 static const int64 nMaxClockDrift = 2 * 60 * 60;        // two hours
 
